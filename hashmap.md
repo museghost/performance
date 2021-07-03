@@ -1,3 +1,7 @@
+* compiled with mimalloc 1.7.0
+
+
+
 ```bash
 Running ./build-release/build_subfolder/performance/jrm-hashmap
 Run on (2 X 2300.05 MHz CPU s)

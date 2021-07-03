@@ -74,6 +74,25 @@ BM_for_range_bypass_key_int64_t      10128 ns        10128 ns        69960
 BM_for_range_key_classA               4421 ns         4421 ns       149192
 ```
 
+## for_range (only)
+
+```bash
+Running ./build-release/build_subfolder/performance/jrm-hashmap_for_range
+Run on (2 X 2300.05 MHz CPU s)
+CPU Caches:
+  L1 Data 32 KiB (x2)
+  L1 Instruction 32 KiB (x2)
+  L2 Unified 256 KiB (x2)
+  L3 Unified 46080 KiB (x1)
+Load Average: 0.00, 0.00, 0.00
+--------------------------------------------------------------------------
+Benchmark                                Time             CPU   Iterations
+--------------------------------------------------------------------------
+BM_for_range_bypass_key_int64_t       4051 ns         4051 ns       162170
+BM_for_range_key_int64_t              3679 ns         3678 ns       188812
+BM_for_range_key_classA               4581 ns         4581 ns       176900
+```
+
 ---
 
 # Lookup only

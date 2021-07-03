@@ -22,6 +22,41 @@ CPU Caches:
   L1 Instruction 32 KiB (x2)
   L2 Unified 256 KiB (x2)
   L3 Unified 46080 KiB (x1)
+Load Average: 0.17, 0.08, 0.02
+--------------------------------------------------------------------------
+Benchmark                                Time             CPU   Iterations
+--------------------------------------------------------------------------
+BM_for_range_bypass_key_int64_t       4064 ns         4063 ns       182057
+BM_for_range_key_classA               4014 ns         4014 ns       200233
+```
+
+```bash
+Running ./build-release/build_subfolder/performance/jrm-hashmap
+Run on (2 X 2300.05 MHz CPU s)
+CPU Caches:
+  L1 Data 32 KiB (x2)
+  L1 Instruction 32 KiB (x2)
+  L2 Unified 256 KiB (x2)
+  L3 Unified 46080 KiB (x1)
+Load Average: 0.16, 0.08, 0.02
+--------------------------------------------------------------------------
+Benchmark                                Time             CPU   Iterations
+--------------------------------------------------------------------------
+BM_for_range_bypass_key_int64_t       4595 ns         4595 ns       187195
+BM_for_range_key_classA               6081 ns         6081 ns       100000
+```
+
+---
+
+
+```bash
+Running ./build-release/build_subfolder/performance/jrm-hashmap
+Run on (2 X 2300.05 MHz CPU s)
+CPU Caches:
+  L1 Data 32 KiB (x2)
+  L1 Instruction 32 KiB (x2)
+  L2 Unified 256 KiB (x2)
+  L3 Unified 46080 KiB (x1)
 Load Average: 0.17, 0.07, 0.02
 --------------------------------------------------------------------------
 Benchmark                                Time             CPU   Iterations

@@ -1,6 +1,9 @@
+# Options
 * compiled with mimalloc 1.7.0
+* gcc 8.3.0
+* Ubuntu 16.04.4 LTS (`lsb_release -a`)
 
-
+---
 
 ```bash
 Running ./build-release/build_subfolder/performance/jrm-hashmap

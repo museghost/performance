@@ -1,3 +1,12 @@
+# Conditions
+
+`adfasdfkjasflkajsdflaksjdfl;aksjdf8830a009s`
+
+hashing for the above; 43 bytes string
+
+
+# Performances
+
 ```bash
 Running ./build-release/build_subfolder/performance/jrm-hashing
 Run on (2 X 2300.05 MHz CPU s)

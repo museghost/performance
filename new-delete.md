@@ -95,7 +95,7 @@ Benchmark                      Time             CPU   Iterations
 BM_allocation_libstdc        116 ns          116 ns      6039887
 ```
 
-# 512 bytes
+## 512 bytes
 
 ```bash
 ubuntu@ap-kr-dev-x008:~/project/jrm$ ./build-release/build_subfolder/performance/jrm-new_delete_libstdc

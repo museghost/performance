@@ -1,4 +1,4 @@
-# mimalloc 1.7.2
+# mimalloc 1.7.2 (256 bytes)
 
 ```bash
 2021-11-21T04:58:20+00:00
@@ -16,7 +16,7 @@ Benchmark                       Time             CPU   Iterations
 BM_allocation_mimalloc       45.3 ns         45.3 ns     15449613
 ```
 
-# libstdc++ (ubuntu 16.04, gcc-8.2)
+# libstdc++ (256 bytes, ubuntu 16.04, gcc-8.2)
 
 ```bash
 ubuntu@ap-kr-dev-x008:~/project/jrm$ ./build-release/build_subfolder/performance/jrm-new_delete_libstdc

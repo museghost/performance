@@ -63,7 +63,7 @@ BM_ticker_assign/0                          4.48 ns         4.48 ns    156409899
 
 # using farmhash
 
-* std::memcmp with lhr.size() and quasar's hash_combine x 3
+* quasar's hash_combine x 3
 
 ```bash
 Running ./build-release/build_subfolder/performance/jrm-composite-key
